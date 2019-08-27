@@ -1,0 +1,31 @@
+﻿<div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+    <ul class="navbar-nav flex-grow-1">
+        @if (ViewBag.account != null)
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Withdraw">Rút Tiền</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Deposit">Nạp Tiền</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Transfer">Chuyển Khoản</a>
+            </li>
+
+
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="GetBalance">Kiểm Số Dư</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Transaction" asp-action="History">Lịch Sử Giao Dịch</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+            </li>
+        }
+    </ul>
+</div>

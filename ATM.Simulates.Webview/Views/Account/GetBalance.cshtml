@@ -1,0 +1,15 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    ViewData["Title"] = "Login Page";
+}
+@model ATM.Simulates.Webview.Response.ListAcountData
+
+<div class="text-center">
+    <h6 >Thông tin số dư</h6>
+    @foreach (var item in Model.ListAccount)
+    {
+        <div>  Loại tài khoản: <span class="label label-info">@item.AccountType</span> </div>
+        <div>  Số Dư: <span class="label label-info">@item.Balance</span> </div>
+    }
+</div>

@@ -1,0 +1,38 @@
+{
+  "ListAccount": [
+    {
+      "AccountName": "Nguyen Trong Thang",
+      "AccountNumber": "01122334455",
+      "CardNumber": "9704032720804098",
+      "Pin": "123456",
+      "Wallet": [
+        {
+          "WalletType": "Checking",
+          "Balance": 50000000
+        },
+        {
+          "WalletType": "Savings",
+          "Balance": 10000000
+        }
+
+      ]
+    },
+    {
+      "AccountName": "Tran Van A",
+      "AccountNumber": "01122336677",
+      "CardNumber": "6804032720804999",
+      "Pin": "456789",
+      "Wallet": [
+        {
+          "WalletType": "Checking",
+          "Balance": 90000000
+        },
+        {
+          "WalletType": "Savings",
+          "Balance": 40000000
+        }
+
+      ]
+    }
+  ]
+}

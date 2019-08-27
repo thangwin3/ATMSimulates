@@ -1,0 +1,14 @@
+D:\MyProject\ProjectNovaLand\ATM.Test\bin\Debug\netcoreapp2.2\ATM.Test.deps.json
+D:\MyProject\ProjectNovaLand\ATM.Test\bin\Debug\netcoreapp2.2\ATM.Test.runtimeconfig.json
+D:\MyProject\ProjectNovaLand\ATM.Test\bin\Debug\netcoreapp2.2\ATM.Test.runtimeconfig.dev.json
+D:\MyProject\ProjectNovaLand\ATM.Test\bin\Debug\netcoreapp2.2\ATM.Test.dll
+D:\MyProject\ProjectNovaLand\ATM.Test\bin\Debug\netcoreapp2.2\ATM.Test.pdb
+D:\MyProject\ProjectNovaLand\ATM.Test\obj\Debug\netcoreapp2.2\ATM.Test.csproj.CoreCompileInputs.cache
+D:\MyProject\ProjectNovaLand\ATM.Test\obj\Debug\netcoreapp2.2\ATM.Test.RazorAssemblyInfo.cache
+D:\MyProject\ProjectNovaLand\ATM.Test\obj\Debug\netcoreapp2.2\ATM.Test.RazorAssemblyInfo.cs
+D:\MyProject\ProjectNovaLand\ATM.Test\obj\Debug\netcoreapp2.2\ATM.Test.AssemblyInfoInputs.cache
+D:\MyProject\ProjectNovaLand\ATM.Test\obj\Debug\netcoreapp2.2\ATM.Test.AssemblyInfo.cs
+D:\MyProject\ProjectNovaLand\ATM.Test\obj\Debug\netcoreapp2.2\ATM.Test.RazorTargetAssemblyInfo.cache
+D:\MyProject\ProjectNovaLand\ATM.Test\obj\Debug\netcoreapp2.2\ATM.Test.dll
+D:\MyProject\ProjectNovaLand\ATM.Test\obj\Debug\netcoreapp2.2\ATM.Test.pdb
+D:\MyProject\ProjectNovaLand\ATM.Test\obj\Debug\netcoreapp2.2\ATM.Test.csprojAssemblyReference.cache

@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "History Page";
+   int  count = 1;
+}
+@model ATM.Simulates.Webview.Response.ListTransactionData
+<div class="text-center">
+    <h5>Lịch sử giao dịch gần nhất<h5>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Loại Giao Dịch</th>
+                <th scope="col">Số Tiền</th>
+                <th scope="col">Trạng Thái</th>
+                <th scope="col">Ngày Giao Dịch</th>
+                <th scope="col">Phí Giao Dịch</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ListTransaction)
+            {
+            <tr>
+                <th scope="row">@count</th>
+                <td>@item.TransType</td>
+                <td>@item.Amount</td>
+                <td>@item.Status</td>
+                <td>@item.TransactionDate</td>
+                <td>@item.Fee</td>
+            </tr>
+            count ++;
+            }
+        </tbody>
+    </table>
+</div>
+

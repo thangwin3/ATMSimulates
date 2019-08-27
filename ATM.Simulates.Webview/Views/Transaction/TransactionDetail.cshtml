@@ -1,0 +1,12 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "TransactionDetail Page";
+}
+@model ATM.Simulates.Webview.Response.TransactionDetailData
+<div class="text-center">
+    <div> Loại giao dịch:  <span class="label label-info">@Model.TransactionType</span> </div>
+    <div> Số tiền:  <span class="label label-info">@Model.Amount</span> </div>
+    <div> Thời gian:  <span class="label label-info">@Model.TransactionDate.ToString("hh:mm:ss dd/MM/yyy")</span> </div>
+    <div> Trạng Thái Giao dịch  <span class="label label-success">@Model.Status</span></div>
+</div>
+
