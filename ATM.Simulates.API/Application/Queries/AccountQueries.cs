@@ -119,7 +119,7 @@ namespace ATM.Simulates.API.Application.Queries
             var response = new GetListTransactionResponse();
             try
             {
-                var listTransaction = await _context.Transactions.Take(20).ToListAsync();
+                var listTransaction = await _context.Transactions.Take(20).OrderByDescending(t=>t.TransDate).ToListAsync();
                 foreach (var transaction in listTransaction)
                 {
                     var acountItem = new ItemTransaction()
