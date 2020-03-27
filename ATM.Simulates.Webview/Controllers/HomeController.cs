@@ -10,17 +10,21 @@ namespace ATM.Simulates.Webview.Controllers
     {
         public IActionResult Index()
         {
+           
+
             var account = SessionHelper.GetObjectFromJson<DataLoginResponse>(HttpContext.Session, "Account");
             if (account != null)
             {
                 ViewBag.account = account.AccountName;
-
+                HttpContext.Session.Clear();
+               // SessionHelper.Clear(HttpContext.Session, "");
                 return View();
             }
             else
             {
                 return RedirectToAction("Login", "Account");
             }
+
         }
 
 

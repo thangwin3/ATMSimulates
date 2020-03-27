@@ -82,8 +82,7 @@ namespace ATM.Simulates.API.Application.Queries
             try
             {
                 var transactionDetail = (from p in _context.Transactions
-                                         join c in _context.TransactionType
-                                         on p.TransactionTypeId equals c.TransactionTypeId
+                                         join c in _context.TransactionType on p.TransactionTypeId equals c.TransactionTypeId 
                                          where p.TransactionId == request.TransactionId
                                          select new
                                          {
